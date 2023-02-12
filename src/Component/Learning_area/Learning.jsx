@@ -12,10 +12,15 @@ function Learning() {
     }, [])
     return (
         <>
-
-            <div className="h-1/4 bg-lime-500  m-2 rounded-lg text-slate-100 flex justify-center items-center">
-                <span>Topic in here</span>
+            <div className=" flex flex-row bg-lime-500 rounded-lg justify-evenly items-center text-slate-100 text-xl font-mono my-4">
+                <div>
+                    <span>Hello! <br></br> Here Some Suggest Topic</span>
+                </div>
+                <div className=" m-2 rounded-lg flex w-20 h-20">
+                    <img src="./image/start.gif"></img>
+                </div>
             </div>
+
             <div className="h-3/4 flex flex-col items-center">
                 {topics.map((topic) => {
                     return (

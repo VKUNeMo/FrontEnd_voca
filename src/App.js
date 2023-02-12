@@ -16,7 +16,6 @@ function App() {
         <div>
           {isLogin ? (<Nav></Nav>) : null}
         </div>
-
         <BrowserRouter>
           <Routes>
             <Route path="/register" element={<Register />} />
