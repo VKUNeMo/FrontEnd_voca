@@ -8,7 +8,7 @@ function Home() {
             <div className="grid grid-cols-5 w-full justify-evenly ">
                 <div id="personal-area" className="">
                     <div>
-                        <Personal />
+                        <Personal/>
                     </div>
                 </div>
                 <div id="learning-area " className="col-span-2 mx-2">

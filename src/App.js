@@ -7,12 +7,12 @@ import Register from "./Component/Register/Register";
 import Home from "./Component/Home/Home";
 function App() {
   const [isLogin, setIsLogin] = useState(false)
-  function handleLogin(){
+  function handleLogin() {
     setIsLogin(true)
   }
   return (
     <>
-      <div id="main-component" className="flex flex-col  ">
+      <div id="main-component" className="flex flex-col   ">
         <div>
           {isLogin ? (<Nav></Nav>) : null}
         </div>
